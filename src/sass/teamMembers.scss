@@ -15,7 +15,6 @@
     overflow: hidden;
     display: inline-block;
     position: relative;
-
     .member-img-over {
       background: rgba(#42C3DE, 0.7);
       display: block;
@@ -32,7 +31,6 @@
       &:hover {
         background: rgba(#42C3DE, 0.0);
       }
-
       &:hover + .member-img {
         filter: none;
       }
@@ -62,13 +60,9 @@
         transform:scale(1.1) rotate(7deg) ;
         background-color: lighten($darkerColor,15%);
       }
-
       img {
         -webkit-transform: translateZ(0);
         transform: translateZ(0);
-
-
-
       }
     }
   }

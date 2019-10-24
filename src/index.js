@@ -1,12 +1,9 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import teamData from "./teamData";
-
-
 import "./styles.scss";
 import TeamMember from "./components/TeamMember";
 import Slider from "./components/Slider";
-
 
 class App extends Component {
     state={
@@ -24,7 +21,6 @@ class App extends Component {
             isVisible:false
         })
     };
-
     render() {
         return (
             <>
@@ -41,16 +37,12 @@ class App extends Component {
                                         key={el.id}
                                         swipe={this.handleOnSwipe}
                                         visible={this.state.isVisible}
-
                             />
                         )
                     })}
-                    {/*{this.state.isVisible?<Slider close={this.handleOnClose}*/}
-                    {/*                              slide={this.state.startSlide}/>:null}*/}
                 </section>
                 {this.state.isVisible?<section className="slider-container"><Slider close={this.handleOnClose}
                                                                                     slide={this.state.startSlide}/></section>:null}
-
             </>
         )
     }

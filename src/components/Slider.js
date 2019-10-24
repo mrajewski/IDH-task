@@ -27,11 +27,9 @@ class Slider extends Component {
     next = () => {
         this.reactSwipe.next();
     };
-
     prev = () => {
         this.reactSwipe.prev();
     };
-
     render() {
         // Swipe.js options
         const swipeOptions = {
@@ -66,5 +64,4 @@ class Slider extends Component {
         );
     }
 }
-
 export default Slider

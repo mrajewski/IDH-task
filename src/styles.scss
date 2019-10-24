@@ -10,10 +10,10 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
-
 #root{
   position: relative;
   min-height: 100vh;
+  padding-bottom: 50px;
   &:after {
     content: "";
     background-image: url("assets/img/bg.png");
@@ -27,8 +27,6 @@
     position: absolute;
     z-index: -1;
   }
-
-
 }
 .page-title{
   color: $darkerColor;
@@ -39,6 +37,5 @@
   padding-top: 40px;
   @media (max-width: 450px ) {
     font-size: 40px;
-
   }
 }
