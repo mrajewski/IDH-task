@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Mail_closed" data-name="Mail closed" class="cls-1" d="M1296,605a1.034,1.034,0,0,0-1.06-1h-14.88a1.034,1.034,0,0,0-1.06,1l8.5,6.5Zm-17,1.5V615a1.033,1.033,0,0,0,1.06,1h14.88a1.033,1.033,0,0,0,1.06-1v-8.517L1287.5,613Z" transform="translate(-1279 -604)"/>
+</svg>

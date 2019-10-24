@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/IDH-task/static/css/main.d27fbcc0.chunk.css",
+    "main.js": "/IDH-task/static/js/main.e006c431.chunk.js",
+    "main.js.map": "/IDH-task/static/js/main.e006c431.chunk.js.map",
+    "runtime~main.js": "/IDH-task/static/js/runtime~main.7e1b0e1e.js",
+    "runtime~main.js.map": "/IDH-task/static/js/runtime~main.7e1b0e1e.js.map",
+    "static/js/2.8c9a4450.chunk.js": "/IDH-task/static/js/2.8c9a4450.chunk.js",
+    "static/js/2.8c9a4450.chunk.js.map": "/IDH-task/static/js/2.8c9a4450.chunk.js.map",
+    "index.html": "/IDH-task/index.html",
+    "precache-manifest.f25f0c84e8884b7435ff5546f7f3f272.js": "/IDH-task/precache-manifest.f25f0c84e8884b7435ff5546f7f3f272.js",
+    "service-worker.js": "/IDH-task/service-worker.js",
+    "static/css/main.d27fbcc0.chunk.css.map": "/IDH-task/static/css/main.d27fbcc0.chunk.css.map",
+    "static/media/Mail closed.svg": "/IDH-task/static/media/Mail closed.d3b41df5.svg",
+    "static/media/Man1.png": "/IDH-task/static/media/Man1.67200325.png",
+    "static/media/Man2.png": "/IDH-task/static/media/Man2.4e024da8.png",
+    "static/media/Woman1.png": "/IDH-task/static/media/Woman1.d9958707.png",
+    "static/media/Woman2.png": "/IDH-task/static/media/Woman2.d7535b9e.png",
+    "static/media/Woman3.png": "/IDH-task/static/media/Woman3.02177fa9.png",
+    "static/media/styles.scss": "/IDH-task/static/media/bg.86377fca.png",
+    "static/media/slide.png": "/IDH-task/static/media/slide.a9d531ef.png"
+  }
+}
