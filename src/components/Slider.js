@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ReactSwipe from 'react-swipe';
-import teamData from "../teamData";
+import teamData from '../teamData';
 import NextArrow from '@material-ui/icons/ArrowForwardIos'
 import PrevArrow from '@material-ui/icons/ArrowBackIos'
 import CloseBtn from '@material-ui/icons/Close'
