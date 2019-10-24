@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/IDH-task/static/css/main.52cf28ec.chunk.css",
+    "main.css": "/IDH-task/static/css/main.aafa2f68.chunk.css",
     "main.js": "/IDH-task/static/js/main.08010201.chunk.js",
     "main.js.map": "/IDH-task/static/js/main.08010201.chunk.js.map",
     "runtime~main.js": "/IDH-task/static/js/runtime~main.7e1b0e1e.js",
@@ -8,9 +8,9 @@
     "static/js/2.8c9a4450.chunk.js": "/IDH-task/static/js/2.8c9a4450.chunk.js",
     "static/js/2.8c9a4450.chunk.js.map": "/IDH-task/static/js/2.8c9a4450.chunk.js.map",
     "index.html": "/IDH-task/index.html",
-    "precache-manifest.033da6b5857f18416d454021ca0b2e2e.js": "/IDH-task/precache-manifest.033da6b5857f18416d454021ca0b2e2e.js",
+    "precache-manifest.b43d8ef648b8a80491dd3a45288d9931.js": "/IDH-task/precache-manifest.b43d8ef648b8a80491dd3a45288d9931.js",
     "service-worker.js": "/IDH-task/service-worker.js",
-    "static/css/main.52cf28ec.chunk.css.map": "/IDH-task/static/css/main.52cf28ec.chunk.css.map",
+    "static/css/main.aafa2f68.chunk.css.map": "/IDH-task/static/css/main.aafa2f68.chunk.css.map",
     "static/media/Mail closed.svg": "/IDH-task/static/media/Mail closed.d3b41df5.svg",
     "static/media/Man1.png": "/IDH-task/static/media/Man1.67200325.png",
     "static/media/Man2.png": "/IDH-task/static/media/Man2.4e024da8.png",
