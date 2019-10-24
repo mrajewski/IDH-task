@@ -45,11 +45,11 @@ class App extends Component {
                             />
                         )
                     })}
-                    {/*{this.state.isVisible?<Slider close={this.handleOnClose}*/}
-                    {/*                              slide={this.state.startSlide}/>:null}*/}
+                    {this.state.isVisible?<Slider close={this.handleOnClose}
+                                                  slide={this.state.startSlide}/>:null}
                 </section>
-                {this.state.isVisible?<section className="slider-container"><Slider close={this.handleOnClose}
-                                                                                    slide={this.state.startSlide}/></section>:null}
+                {/*{this.state.isVisible?<section className="slider-container"><Slider close={this.handleOnClose}*/}
+                {/*                                                                    slide={this.state.startSlide}/></section>:null}*/}
 
             </>
         )

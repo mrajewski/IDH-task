@@ -1,11 +1,12 @@
 
 .slider {
-  position: relative;
+  position: absolute;
   //display: flex;
   //justify-content: center;
   //align-items: center;
-  //top: 0;
-  //left: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   min-width: 100%;
   max-width: 100%;
   min-height: 100%;
@@ -101,7 +102,7 @@
     text-shadow: 1px 1px 5px  #444;
     .slide-member-position {
       color: white;
-      font-size:2.5vw;
+      font-size:3vw;
       text-align: center;
       font-weight: 300;
     }
