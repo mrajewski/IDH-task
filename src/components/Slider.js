@@ -42,24 +42,26 @@ class Slider extends Component {
         };
         return (
             <section className="slider-container">
-                <section className="slider">
-                    <ReactSwipe
-                        ref={reactSwipe => (this.reactSwipe = reactSwipe)}
-                        className="mySwipe"
-                        swipeOptions={swipeOptions}
-                    >
-                        {slideArr}
-                    </ReactSwipe>
-                    <button className='prev-btn' type="button" onClick={this.prev}>
-                        <PrevArrow className="prev-arrow"/>
-                    </button>
-                    <button className='next-btn' type="button" onClick={this.next}>
-                        <NextArrow className="next-arrow"/>
-                    </button>
-                    <button className='close-btn' type="button" onClick={this.props.close}>
-                        <CloseBtn className="close"/>
-                    </button>
-                </section>
+                <div className="slider-center">
+                    <section className="slider">
+                        <ReactSwipe
+                            ref={reactSwipe => (this.reactSwipe = reactSwipe)}
+                            className="mySwipe"
+                            swipeOptions={swipeOptions}
+                        >
+                            {slideArr}
+                        </ReactSwipe>
+                        <button className='prev-btn' type="button" onClick={this.prev}>
+                            <PrevArrow className="prev-arrow"/>
+                        </button>
+                        <button className='next-btn' type="button" onClick={this.next}>
+                            <NextArrow className="next-arrow"/>
+                        </button>
+                        <button className='close-btn' type="button" onClick={this.props.close}>
+                            <CloseBtn className="close"/>
+                        </button>
+                    </section>
+                </div>
             </section>
         );
     }

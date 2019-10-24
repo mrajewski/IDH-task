@@ -1,6 +1,6 @@
 
 .slider-container{
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -9,9 +9,22 @@
   min-height: 100%;
   max-height: 100%;
   z-index: 10;
+  background-color: #00000099;
+  //cursor: pointer;
+}
+.slider-center{
+  width:100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .slider {
   position: relative;
+  cursor: default;
+  width: 90%;
+  margin: 0 auto;
+
+
 
   button {
     background-color: transparent;
@@ -106,13 +119,13 @@
     text-shadow: 1px 1px 5px  #444;
     .slide-member-position {
       color: white;
-      font-size:3vw;
+      font-size:2.5vw;
       text-align: center;
       font-weight: 300;
     }
     .slide-member-name {
       color: white;
-      font-size:6vw;
+      font-size:5vw;
       font-weight: 600;
     }
   }
