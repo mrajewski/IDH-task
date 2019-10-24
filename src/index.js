@@ -19,7 +19,7 @@ class App extends Component {
             isVisible:true
         })
     };
-    handleOnClose=()=>{
+    handleOnClose=(e)=>{
         this.setState({
             isVisible:false
         })
