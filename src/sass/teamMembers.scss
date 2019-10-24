@@ -26,7 +26,7 @@
       height: 100%;
       border-radius: 50%;
       z-index: 1;
-      transition: .8s;
+      transition: 1s;
       cursor: pointer;
       &:hover {
         background: rgba(#42C3DE, 0.0);
@@ -39,7 +39,7 @@
     .member-img {
       display: block;
       filter: grayscale(1) contrast(190%);
-      transition: .8s;
+      transition: 1s;
     }
     .member-mail {
       width: 40px;
@@ -81,6 +81,7 @@
     font-size: 14px;
     font-weight: 300;
     text-align: center;
+    color: #808080;
   }
 }
 

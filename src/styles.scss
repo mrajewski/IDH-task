@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap&subset=latin-ext');
-//@font-face {
-//  font-family: 'blogger_sansregular';
-//  src: url('./assets/fonts/blogger_sans-webfont.woff2') format('woff2'),
-//  url('./assets/fonts/blogger_sans-webfont.woff') format('woff');
-//  font-weight: normal;
-//  font-style: normal;
-//}
 @import "sass/variables.scss";
 @import "sass/teamMembers.scss";
+@import "sass/slide.scss";
 
 
 *{
@@ -19,7 +13,8 @@
 body{
   &:after {
     content: "";
-    background: url("assets/img/bg.png");
+    background-image: url("assets/img/bg.png");
+    background-repeat: repeat;
     opacity: 0.3;
     top: 0;
     left: 0;
@@ -29,10 +24,13 @@ body{
     z-index: -1;
   }
 }
+#root{
+  position: relative;
+}
 .page-title{
   color: $darkerColor;
   font-weight: 600;
   font-size: 60px;
   text-align: center;
-  margin: 50px 0;
+  margin: 40px 0;
 }

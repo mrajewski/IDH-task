@@ -1,32 +1,60 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import teamData from "./teamData";
+import ReactSwipe from 'react-swipe';
+
+
 import "./styles.scss";
 import TeamMember from "./components/TeamMember";
+import Slider from "./components/Slider";
 
 
-function App() {
+class App extends Component {
+    state={
+        startSlide: 0,
+        isVisible:false
+    };
+    handleOnSwipe = slide => {
+        this.setState({
+            startSlide: slide,
+            isVisible:true
+        })
+    };
+    handleOnClose=()=>{
+        this.setState({
+            isVisible:false
+        })
+    };
 
-    return (
-        <>
-            <h1 className="page-title">Meet our team</h1>
-            <section className="team-members-container">
-            {teamData.map(el=>{
-                return (
-                    <TeamMember img={el.img}
-                                name={el.name}
-                                position={el.position}
-                                location={el.location}
-                                mail={el.mail}
-                                id={el.id}
-                                key={el.id}
-                    />
-                )
-            })}
-            </section>
+    render() {
+        return (
+            <>
+               <h1 className="page-title">Meet our team</h1>
+                <section className="team-members-container">
+                    {teamData.map(el => {
+                        return (
+                            <TeamMember img={el.img}
+                                        name={el.name}
+                                        position={el.position}
+                                        location={el.location}
+                                        mail={el.mail}
+                                        id={el.id}
+                                        key={el.id}
+                                        swipe={this.handleOnSwipe}
+                                        visible={this.state.isVisible}
 
-        </>
-    )
+                            />
+                        )
+                    })}
+                    {/*{this.state.isVisible?<Slider close={this.handleOnClose}*/}
+                    {/*                              slide={this.state.startSlide}/>:null}*/}
+                </section>
+                {this.state.isVisible?<section className="slider-container"><Slider close={this.handleOnClose}
+                                                                                    slide={this.state.startSlide}/></section>:null}
+
+            </>
+        )
+    }
 }
 
 ReactDOM.render(<App/>, document.getElementById('root'));

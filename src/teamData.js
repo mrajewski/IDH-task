@@ -3,6 +3,7 @@ import Man2 from './assets/img/Man2.png'
 import Woman1 from './assets/img/Woman1.png'
 import Woman2 from './assets/img/Woman2.png'
 import Woman3 from './assets/img/Woman3.png'
+import slide from "./assets/img/slide.png";
 const teamData = [
     {
         id:1,
@@ -10,7 +11,8 @@ const teamData = [
         name: 'Basia Sołtysińska',
         position: 'Founder',
         location: 'Warsaw',
-        mail: 'lagerobit@imaild.com'
+        mail: 'lagerobit@imaild.com',
+        slide: slide
     },
     {
         id:2,
@@ -18,7 +20,8 @@ const teamData = [
         name: 'Włas Chorowiec',
         position: 'Founder',
         location: 'Warsaw',
-        mail: 'lagerobit@imaild.com'
+        mail: 'lagerobit@imaild.com',
+        slide: slide
     },
     {
         id:3,
@@ -26,7 +29,8 @@ const teamData = [
         name: 'Edyta Leśniewska',
         position: 'Head of Human Resources',
         location: 'Warsaw',
-        mail: 'lagerobit@imaild.com'
+        mail: 'lagerobit@imaild.com',
+        slide: slide
     },
     {
         id:4,
@@ -34,7 +38,8 @@ const teamData = [
         name: 'Joanna Pawluk',
         position: 'Chief Growth Officer (CGO)',
         location: 'London',
-        mail: 'lagerobit@imaild.com'
+        mail: 'lagerobit@imaild.com',
+        slide: slide
     },
     {
         id:5,
@@ -42,7 +47,8 @@ const teamData = [
         name: 'David Saunders',
         position: 'Business Development',
         location: 'London',
-        mail: 'lagerobit@imaild.com'
+        mail: 'lagerobit@imaild.com',
+        slide: slide
     },
     {
         id:6,
@@ -50,7 +56,8 @@ const teamData = [
         name: 'Adam Eldridge',
         position: 'Business Development Director US',
         location: 'Los Angeles',
-        mail: 'lagerobit@imaild.com'
+        mail: 'lagerobit@imaild.com',
+        slide: slide
     },
     {
         id:7,
@@ -58,7 +65,8 @@ const teamData = [
         name: 'Maha Mahda',
         position: 'Chief Business Development Officer (CBDO)',
         location: 'Warsaw',
-        mail: 'lagerobit@imaild.com'
+        mail: 'lagerobit@imaild.com',
+        slide: slide
     },
     {
         id:8,
@@ -66,7 +74,8 @@ const teamData = [
         name: 'Elżbieta Kamińska',
         position: 'International Client Service Manager',
         location: 'Warsaw',
-        mail: 'lagerobit@imaild.com'
+        mail: 'lagerobit@imaild.com',
+        slide: slide
     },
     {
         id:9,
@@ -74,7 +83,8 @@ const teamData = [
         name: 'Karolina Makuch',
         position: 'Creation Manager',
         location: 'Warsaw',
-        mail: 'lagerobit@imaild.com'
+        mail: 'lagerobit@imaild.com',
+        slide: slide
     },
     {
         id:10,
@@ -82,7 +92,8 @@ const teamData = [
         name: 'Kamil Bolek',
         position: 'Head of Communication',
         location: 'Warsaw',
-        mail: 'lagerobit@imaild.com'
+        mail: 'lagerobit@imaild.com',
+        slide: slide
     }
 ];
 
