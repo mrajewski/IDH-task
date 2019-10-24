@@ -1,11 +1,11 @@
 
 .slider {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
+  position: relative;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+  //top: 0;
+  //left: 0;
   min-width: 100%;
   max-width: 100%;
   min-height: 100%;
@@ -18,38 +18,32 @@
     position: absolute;
     outline: none;
   }
-
   .prev-btn {
     top: 50%;
     left: 50px;
-
     .prev-arrow {
-      font-size: 90px;
+      font-size:5vw;
       cursor: pointer;
     }
   }
-
   .next-btn {
     top: 50%;
     right: 50px;
-
     .next-arrow {
-      font-size: 90px;
+      font-size:5vw;
       cursor: pointer;
     }
   }
-
   .close-btn {
     top: 30px;
     right: 50px;
 
     .close {
-      font-size: 100px;
+      font-size:5.2vw;
       cursor: pointer;
     }
   }
 }
-
 .slide {
   position: relative;
   width: 100%;
@@ -82,26 +76,39 @@
     }
   }
 
-  .slide-content {
+  .slide-content-border {
     border: 5px dashed white;
-    width: 50%;
+    min-width: 60%;
+    min-height: 40%;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 
+  }
+  .slide-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 60%;
+    min-height: 40%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-shadow: 1px 1px 5px  #444;
     .slide-member-position {
-      position: relative;
-      z-index: 99;
       color: white;
-
+      font-size:2.5vw;
+      text-align: center;
+      font-weight: 300;
     }
-
     .slide-member-name {
-      position: relative;
-      z-index: 4;
       color: white;
-
+      font-size:6vw;
+      font-weight: 600;
     }
   }
 }

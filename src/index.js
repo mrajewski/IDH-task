@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import teamData from "./teamData";
-import ReactSwipe from 'react-swipe';
 
 
 import "./styles.scss";

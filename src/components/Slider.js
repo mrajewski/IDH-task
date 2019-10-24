@@ -13,7 +13,9 @@ const slideArr = teamData.map(el => {
                 <span className="slide-over"/>
                 <img className="slide-img" src={el.slide} alt=""/>
             </div>
-            <div className="slide-content">
+            <div className="slide-content-border">
+            </div>
+            <div className="slide-text">
                 <p className="slide-member-position">{el.position}</p>
                 <p className="slide-member-name">{el.name}</p>
             </div>
