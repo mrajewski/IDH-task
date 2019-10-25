@@ -17,6 +17,7 @@ class App extends Component {
         })
     };
     handleOnClose=(e)=>{
+        e.stopPropagation();
         this.setState({
             isVisible:false
         })
