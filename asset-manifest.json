@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/IDH-task/static/css/main.ffa10f39.chunk.css",
-    "main.js": "/IDH-task/static/js/main.121c3fc9.chunk.js",
-    "main.js.map": "/IDH-task/static/js/main.121c3fc9.chunk.js.map",
+    "main.js": "/IDH-task/static/js/main.0887ac62.chunk.js",
+    "main.js.map": "/IDH-task/static/js/main.0887ac62.chunk.js.map",
     "runtime~main.js": "/IDH-task/static/js/runtime~main.7e1b0e1e.js",
     "runtime~main.js.map": "/IDH-task/static/js/runtime~main.7e1b0e1e.js.map",
     "static/js/2.8c9a4450.chunk.js": "/IDH-task/static/js/2.8c9a4450.chunk.js",
     "static/js/2.8c9a4450.chunk.js.map": "/IDH-task/static/js/2.8c9a4450.chunk.js.map",
     "index.html": "/IDH-task/index.html",
-    "precache-manifest.7e82237101d12e2a39a72d89d8794866.js": "/IDH-task/precache-manifest.7e82237101d12e2a39a72d89d8794866.js",
+    "precache-manifest.9344c1ae266cb05c2a375d08768e9145.js": "/IDH-task/precache-manifest.9344c1ae266cb05c2a375d08768e9145.js",
     "service-worker.js": "/IDH-task/service-worker.js",
     "static/css/main.ffa10f39.chunk.css.map": "/IDH-task/static/css/main.ffa10f39.chunk.css.map",
     "static/media/Mail closed.svg": "/IDH-task/static/media/Mail closed.d3b41df5.svg",
@@ -18,6 +18,6 @@
     "static/media/Woman2.png": "/IDH-task/static/media/Woman2.d7535b9e.png",
     "static/media/Woman3.png": "/IDH-task/static/media/Woman3.02177fa9.png",
     "static/media/styles.scss": "/IDH-task/static/media/bg.86377fca.png",
-    "static/media/slide.png": "/IDH-task/static/media/slide.a9d531ef.png"
+    "static/media/slide.jpg": "/IDH-task/static/media/slide.88a19860.jpg"
   }
 }

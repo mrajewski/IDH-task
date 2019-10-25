@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4268fd6f284455b09ba5cdc6fd68052d",
+    "revision": "6f1b336187e81dbbae18a3f613150e5a",
     "url": "/IDH-task/index.html"
   },
   {
-    "revision": "cb5854a463126517375b",
+    "revision": "a00a286b50be93a88852",
     "url": "/IDH-task/static/css/main.ffa10f39.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IDH-task/static/js/2.8c9a4450.chunk.js"
   },
   {
-    "revision": "cb5854a463126517375b",
-    "url": "/IDH-task/static/js/main.121c3fc9.chunk.js"
+    "revision": "a00a286b50be93a88852",
+    "url": "/IDH-task/static/js/main.0887ac62.chunk.js"
   },
   {
     "revision": "f7ad84ae3caee6f7632a",
@@ -48,7 +48,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IDH-task/static/media/bg.86377fca.png"
   },
   {
-    "revision": "a9d531efe3e11057862c414db4f55d2d",
-    "url": "/IDH-task/static/media/slide.a9d531ef.png"
+    "revision": "88a198601d420697ba8c28f16e217107",
+    "url": "/IDH-task/static/media/slide.88a19860.jpg"
   }
 ]);
