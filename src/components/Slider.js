@@ -33,12 +33,12 @@ class Slider extends Component {
                             className="mySwipe"
                             swipeOptions={swipeOptions}
                         >
-                            {/*Generete slides*/}
+                            {/*Generate slides*/}
                             {teamData.map(el => {
                                 return (
                                     <div key={el.id} className="slide">
                                         <div className="slide-background">
-                                            <span className="slide-over"/>
+                                            {this.state.loaded? <span className="slide-over"/>:null}
                                             <img onLoad={() => this.setState({loaded: true})} className="slide-img" src={el.slide} alt=""/>
                                         </div>
                                         {this.state.loaded?<div className="slide-content-border"/>:null}
@@ -59,7 +59,6 @@ class Slider extends Component {
                         {this.state.loaded?<button className='close-btn' type="button" onClick={this.props.close}>
                             <CloseBtn className="close"/>
                         </button>:null}
-
                     </section>
                 </div>
             </section>
