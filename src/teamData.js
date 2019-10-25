@@ -3,7 +3,7 @@ import Man2 from './assets/img/Man2.png'
 import Woman1 from './assets/img/Woman1.png'
 import Woman2 from './assets/img/Woman2.png'
 import Woman3 from './assets/img/Woman3.png'
-import slide from "./assets/img/slide.png";
+import slide from "./assets/img/slide.jpg";
 const teamData = [
     {
         id:1,
